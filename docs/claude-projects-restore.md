@@ -6,10 +6,10 @@ description: After resubscribing to Claude Pro, only 5 projects showed. Search f
 
 # Claude projects hidden after resubscribing (fix observed)
 
-**Verified:** 2026-10-23
-**Environment:** Claude iOS app
-**Scenario:** Pro plan lapsed, then resubscribed to Pro
-**Status:** single observation (n=1), not official Anthropic guidance
+- **Verified:** 2026-10-23
+- **Environment:** Claude iOS app
+- **Scenario:** Pro plan lapsed, then resubscribed to Pro
+- **Status:** single observation (n=1), not official Anthropic guidance
 
 ## Symptom
 
@@ -63,3 +63,4 @@ from the free-tier state. This points to a client-side display bug, not data los
 ## Changelog
 
 - 2026-10-23: first observation.
+- 2026-10-23: header lines converted to a bullet list so they render on separate lines.
